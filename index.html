@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=========================== FAVICON ======================== -->
+    <link rel="icon" href="assets/img/favicon.ico">
+    
+    <!--===========================UNICONS=========================-->
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--===========================SWIPER CSS======================-->
+<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+
+    <!--============================CSS============================-->
+<link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <!--===========================HEADER==========================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Lucas</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                    <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                    <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                    <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                    <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                    <i class="uil uil-message nav__icon"></i> Contactme
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Thema change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!--===========================MAIN============================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content grid">
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/lucas-domingues-developer/" 
+                    target="_blank"
+                    class="home__social-icon">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://github.com/Lucdomingues" 
+                    target="_blank"
+                    class="home__social-icon">
+                    <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            <image class="home__blob-img" x="15" y="18" xlink:href="assets/img/perfil.png" />
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I'am Lucas</h1>
+                    <h3 class="home__subtitle">FullStack developer</h3>
+                    <p class="home__description">Este sou eu, um desenvolvedor Full-Stack que está sempre em busca de aprender mais e crescer na carreira. Acredito na
+                    importância da honestidade e transparência nas relações pessoais e profissionais, e valorizo o trabalho em equipe e a
+                    colaboração. Tive a oportunidade de adquirir conhecimentos valiosos em desenvolvimento web por meio da escola Trybe e
+                    estou sempre buscando novas tecnologias e habilidades. Meu objetivo é contribuir da melhor forma possível para o sucesso
+                    da empresa e fornecer uma experiência positiva para os usuários finais.</p>
+                    <a href="#contact" class="button button--flex">
+                        Contact Me <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                    <span class="home__scroll-name">Scroll down</span>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                </a>
+            </div>
+        </div>
+        </section>
+        
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+            <img src="assets/img/about.jpg" alt="about" class="about__img">
+
+            <div class="about__data">
+                <p class="about__description">
+                    Desenvolvedor Full-Stack, com experiências adquirida por meio de estudos voltados a realização de projetos individuas e
+                    em grupo, metodologia focada no mercado de trabalho, utilizando ferramentas como Scrum, Kanban para a organização das
+                    entregas, React para a construção de interfaces, Bootstrap para o auxílio da estilização, Redux ou Context Api para o
+                    gerenciamento do estado, Git e Github para versionamento de códigos, o Back-End também não fica de fora, Docker para a
+                    utilização de containers, empregando MySql para gerenciamento do banco de dados com a linguagem SQL, interpretando o
+                    código JavaScript com Node, todos esses projetos se baseando na arquitetura de software MSC(Model, Service, Controller)
+                    e clean code . Todo esse conhecimento é graças a empresa Trybe, uma escola de desenvolvimento web, que tem como base a
+                    metodologia ativa.
+                    
+                    Tenho paixão por promover um trabalho que agregue cada vez mais a empresa, com o objetivo final de fornecer uma
+                    experiência ótima para funcionários e clientes. Estou dedicado a investir no meu crescimento pessoal e das outras
+                    pessoas ao meu redor, operando com integridade e aproveitando a jornada!
+                    
+                    Tenho o objetivo de continuar aprendendo na área do Back-end, para que um dia possa ingressar em tal, claro que sempre
+                    com uma presença no Front, estou aberto a novas linguagens e tecnologias!
+                </p>
+
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title">01</span>
+                        <span class="about__info-name">Years <br> experience</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">20+</span>
+                        <span class="about__info-name">Completed <br> project</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">00</span>
+                        <span class="about__info-name">Companies <br> worked</span>
+                    </div>
+                </div>
+
+                <div class="about__buttons">
+                    <a download="" href="assets/pdf/Profile (1).pdf" class="button button--flex">
+                        Download CV<i class="uil uil-download-alt button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+            <div>
+                <!--==================== SKILLS 1====================-->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Frontend developer</h1>
+                            <span class="skills__subtitle">More than 11 months</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <!--1 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__html"></span>
+                            </div>
+                        </div>
+                        <!--2 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__css"></span>
+                            </div>
+                        </div>
+                        <!--3 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__javascript"></span>
+                            </div>
+                        </div>
+                        <!--4 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">React</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__react"></span>
+                            </div>
+                        </div>
+
+                        <!--5 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Redux</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__redux"></span>
+                            </div>
+                        </div>
+
+                        <!--6 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Hooks</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__hooks"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--==================== SKILLS 2====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                    <i class="uil uil-server-network skills__icon"></i>
+                
+                        <div>
+                            <h1 class="skills__title">Backend developer</h1>
+                            <span class="skills__subtitle">More than 5 months</span>
+                        </div>
+                
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                
+                    <div class="skills__list grid">
+                        <!--1 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Docker</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__docker"></span>
+                            </div>
+                        </div>
+                        <!--2 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Node.js</h3>
+                                <span class="skills__number">85%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__node"></span>
+                            </div>
+                        </div>
+                        <!--3 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">MySql</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__mysql"></span>
+                            </div>
+                        </div>
+                        <!--4 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">TypeScript</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__typescript"></span>
+                            </div>
+                        </div>
+
+                        <!--5 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">POO</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__poo"></span>
+                            </div>
+                        </div>
+
+                        <!--6 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Sequelize</h3>
+                                <span class="skills__number">85%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__sequelize"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <!--==================== SKILLS 3====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-cell skills__icon"></i>
+                
+                        <div>
+                            <h1 class="skills__title">Methodologies</h1>
+                            <span class="skills__subtitle">More than 1 years</span>
+                        </div>
+                
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                
+                    <div class="skills__list grid">
+                        <!--1 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Scrum</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__scrum"></span>
+                            </div>
+                        </div>
+                        <!--2 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Kanban</h3>
+                                <span class="skills__number">100%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__kanban"></span>
+                            </div>
+                        </div>
+                        <!--3 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Clean Code</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__clean"></span>
+                            </div>
+                        </div>
+                        <!--4 Skills-->
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Pair Programming</h3>
+                                <span class="skills__number">100%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__pair"></span>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+        <!--==================== QUALIFICATION ====================-->
+    
+        <!--==================== SERVICES ====================-->
+        
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper">
+            <div class="swiper-wrapper">
+        <!--==================== PORTFOLIO 1 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/front.png" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Trybe Futebol Clube</h3>
+                <p class="portfolio__description">Descrição do projeto aqui</p>
+                <a href="#" class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== PORTFOLIO 2 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/Captura de tela de 2023-04-10 14-40-49.png" alt="" class="portfolio__img">
+        
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Recipes App</h3>
+                <p class="portfolio__description">Nesse projeto, a pessoa que estiver utilizando o app pode procurar uma receita específica, explorar receitas baseado em
+                diferentes critérios, favoritar e fazer as receitas, entre outras funcionalidades.
+                
+                As telas sofrem variações dependendo do tipo da receita (se é comida ou bebida, no caso).
+                
+                A base de dados são 2 APIs distintas, uma para comidas e outra para bebidas.
+                
+                O layout tem como foco dispositivos móveis, por conta disso todos os protótipos estão disponíveis em telas menores.</p>
+                <a href="https://lucdomingues.github.io/Recipes-App.github.io/#/" target="_blank" class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== PORTFOLIO 3 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/1679528186928.jpeg" alt="" class="portfolio__img">
+        
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Fn Wallet</h3>
+                <p class="portfolio__description">Neste projeto foi desenvolvido uma carteira de controle de gastos com conversor de moedas, ao utilizar essa aplicação o
+                usuário poderá:
+                
+                Adicionar, remover e editar um gasto;
+                Visualizar uma tabelas com seus gastos;
+                Visualizar o total de gastos convertidos para uma moeda de escolha;</p>
+                <a href="https://lucdomingues.github.io/Fn-Wallet.github.io/#/" target="_blank" class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== PORTFOLIO 4 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/Captura de tela de 2023-04-10 14-44-09.png" alt="" class="portfolio__img">
+        
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Frontend Online Store</h3>
+                <p class="portfolio__description">Neste projeto foi criado uma versão simplificada, sem persistência no banco de dados, de uma loja online, desenvolvido
+                em grupo utilizando métodos como Scrum, Pair Programming, Kanban com auxílio de DM's(Daily's Meeting), em um cenário
+                próximo ao do mercado de trabalho.
+                
+                A partir de algumas demandas, temos uma aplicação em que pessoas usuárias podem:
+                
+                Buscar produtos por termos e categorias a partir da API do Mercado Livre;
+                Interagir com os produtos buscados de modo a adicioná-los e removê-los de um carrinho de compras em diferentes
+                quantidades;
+                Visualizar detalhes e avaliações prévias de um produto, bem como criar novas avaliações e;
+                Simular a finalização da compra dos itens selecionados.</p>
+                <a href="https://lucdomingues.github.io/Frontend-Online-Store.github.io/#/" target="_blank"
+                    class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== PORTFOLIO 5 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/pagina-principal.png" alt="" class="portfolio__img">
+        
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Trybewarts</h3>
+                <p class="portfolio__description">Neste projeto, foi desenvolvido uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes
+                poderão enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que
+                programar é o mais próximo que podemos chegar de algo verdadeiramente mágico!
+               Este projeto foi desenvolvido em equipe.
+            
+            Todos os requisitos tem como base a página a seguir, que representa um formulário de avaliação da Escola de Magia de
+            Trybewarts.</p>
+                <a href="https://lucdomingues.github.io/TrybeWarts.github.io/" target="_blank"
+                    class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== PORTFOLIO 6 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/post-blog-palestrante-capa-blog.png" alt="" class="portfolio__img">
+        
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Talker Manager</h3>
+                <p class="portfolio__description">Foi construída uma aplicação de cadastro de talkers (palestrantes) em que é possível cadastrar, visualizar, pesquisar,
+                editar e excluir informações. Para isso foi desenvolvído:
+                
+                Uma API de um CRUD (Create, Read, Update e Delete) de palestrantes (talkers) e; Alguns endpoints que leem e escrevem um
+                arquivo utilizando o módulo fs.</p>
+                <a href="https://github.com/Lucdomingues/Talker-Manager" target="_blank"
+                    class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== PORTFOLIO 7 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/1679188432861.jpeg" alt="" class="portfolio__img">
+        
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Store Manager</h3>
+                <p class="portfolio__description">Foi desenvolvido uma API utilizando a arquitetura MSC (model-service-controller)!
+                
+                A API foi construída em um sistema de gerenciamento de vendas no formato dropshipping em que é possível criar,
+                visualizar, deletar e atualizar produtos e vendas. Está sendo utilízado o banco de dados MySQL para a gestão de dados.
+                Além disso, a API é RESTful.
+                
+                Está implementado testes unitários das camadas!</p>
+                <a href="https://github.com/Lucdomingues/Store-Manager" target="_blank"
+                    class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== PORTFOLIO 8 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/maos-masculinas-teclando-em-laptop-em-mesa-de-escr.jpeg" alt="" class="portfolio__img">
+        
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Blogs Api</h3>
+                <p class="portfolio__description">Neste projeto foi desenvolvido uma API e um banco de dados para a produção de conteúdo para um blog!
+                
+                Essa aplicação foi desenvolvida em Node.js usando o pacote sequelize para fazer um CRUD de posts.
+                
+                Utilizando endpoints que estarão conectados ao banco de dados seguindo os princípios do REST;
+                
+                Para fazer um post é necessário usuário e login;
+                
+                Será necessária a utilização de categorias para os posts.</p>
+                <a href="https://github.com/Lucdomingues/Blogs-Api" target="_blank"
+                    class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== PORTFOLIO 9 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/Captura de tela de 2023-04-10 14-59-14.png" alt="" class="portfolio__img">
+        
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Luctunes</h3>
+                <p class="portfolio__description">Neste projeto você irá ver o LucTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas,
+                criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada. Uma aplicação baseada no front-end
+                escrita com JavaScript, utilizando a biblioteca React, construída por componentes e testes. Sobre o CSS, utilizei a
+                ferramenta Bootstrap para me auxiliar na construção do estilo. Essa aplicação é capaz de:
+                
+                Fazer login
+                Pesquisar por uma banda ou artista
+                Listar os álbuns disponíveis dessa banda ou artista
+                Visualizar as músicas de um álbum selecionado
+                Reproduzir uma prévia das músicas deste álbum
+                Favoritar e desfavoritar músicas
+                Ver a lista de músicas favoritas
+                Ver o perfil da pessoa logada
+                Editar o perfil da pessoa logada
+</p>
+                <a href="https://lucdomingues.github.io/LucTunes.github.io/#/" target="_blank"
+                    class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!--==================== PORTFOLIO 10 ====================-->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/Captura de tela de 2023-04-10 15-02-03.png" alt="" class="portfolio__img">
+        
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Shopping Cart</h3>
+                <p class="portfolio__description">Foi desenvolvido um carrinho de compras totalmente dinâmico!
+                
+                Para isso, a aplicação está consumindo dados diretamente de uma API!
+                
+                Isso mesmo! Da sigla em inglês Application Programming Interface, uma API é um ponto de contato na internet com
+                determinado serviço e nesse projeto está sendo utilizado a API do Mercado Livre para buscar produtos à venda.
+                
+                E não para por aí!
+                
+                Este projeto foi pensado no desenvolvimento orientado a testes, o famoso TDD (Test Driven Development)! Que ajuda a
+                garantir um código de qualidade, percebendo os casos de uso da aplicação e garantindo que ela está funcionando da
+                maneira correta!
+                </p>
+                <a href="https://lucdomingues.github.io/Shopping-Cart.github.io/" target="_blank"
+                    class="button button--flex button--small portfolio__button">
+                    Demo
+                    <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+            </div>
+               
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        </section>
+        
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+        <div class="project__bg">
+            <div class="project__container container grid">
+                <div class="project__data">
+                    <h2 class="project__title">Princípios e Valores</h2>
+                    <p class="project__description">Eu sou uma pessoa que preza muito pela sinceridade e a verdade em todas as áreas da minha vida. Acredito que a
+                    honestidade é fundamental para manter relações saudáveis e duradouras.
+                    
+                    Valorizo a responsabilidade individual e acredito que cada um deve fazer a sua parte. No entanto, também sei que
+                    trabalhar em equipe é fundamental para alcançar grandes objetivos. Gosto de colaborar com outras pessoas e estou sempre
+                    disposto a ajudar quando necessário.
+                    
+                    Adoro a metodologia ativa de aprendizado, que valoriza a participação ativa do aluno no processo de aprendizagem.
+                    Acredito que isso torna o aprendizado mais dinâmico e estimulante.
+                    
+                    Um dos meus principais princípios é o do caráter e da verdade. Para mim, é essencial agir com ética e transparência em
+                    todas as situações. Por isso, busco sempre manter um diálogo transparente e objetivo, para que possamos alcançar
+                    soluções justas e efetivas.</p>
+                    <!-- <a href="#contact" class="button button--flex button--white">
+                        Contact Me
+                        <i class="uil uil-message project__icon button__icon"></i>
+                    </a> -->
+                </div>
+
+                <img src="assets/img/services-web-development-380x380.png" alt="" class="project__img">
+            </div>
+        </div>
+        </section>
+        
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+        
+        </section>
+        
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+            <div>
+                <div class="contact__information">
+                    <i class="uil uil-phone contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Call Me</h3>
+                        <span class="contact__subtitle">(11)96866-1718</span>
+                    </div>
+                </div>
+
+                <div class="contact__information">
+                    <i class="uil uil-envelope contact__icon"></i>
+                
+                    <div>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">lojalucc@outlook.com</span>
+                    </div>
+                </div>
+
+                <div class="contact__information">
+                    <i class="uil uil-map-marker contact__icon"></i>
+                
+                    <div>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__subtitle">Brazil - São Paulo/SP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <form action="" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Name</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Email</label>
+                        <input type="email" class="contact__input">
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <label for="" class="contact__label">Project</label>
+                    <input type="text" class="contact__input">
+                </div>
+                <div class="contact__content">
+                    <label for="" class="contact__label">Message</label>
+                    <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                </div>
+
+                <div>
+                    <a href="#" class="button button--flex">
+                        Send Message
+                        <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
+            </form> -->
+        </div>
+        </section>
+    </main>
+
+    <!--==========================FOOTER===========================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Lucas</h1>
+                    <span class="footer__subtitle">Fullstack developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contactme</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/lucas-domingues-developer/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Lucdomingues" target="_blank" class="footer__social">
+                    <i class="uil uil-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Lucas Domingues All right reserved</p>
+        </div>
+    </footer>
+
+    <!--==========================SCROLL TOP=======================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+
+    <!--==========================SWIPER JS========================-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==========================MAIN JS==========================-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

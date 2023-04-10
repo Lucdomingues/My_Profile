@@ -1,0 +1,17 @@
+{
+  "name": "projeto-portifolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "homepage": "https://Lucdomingues.github.io/My_Profile",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
