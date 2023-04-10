@@ -1,12 +1,13 @@
 {
   "name": "projeto-portifolio",
   "version": "1.0.0",
+  "homepage": "https://Lucdomingues.github.io/My_Profile.github.io",
   "description": "",
-  "main": "index.js",
- "homepage": "https://Lucdomingues.github.io/My_Profile",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
